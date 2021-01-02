@@ -468,3 +468,98 @@
 2021-01-02 13:41:23,061 [main] INFO  Driver.App - chocolate milkshake price: $3.5
 2021-01-02 13:41:23,062 [main] INFO  Driver.App - chocolate chip cookies price: $2.25
 2021-01-02 13:41:23,062 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 14:25:57,559 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:26:08,700 [main] INFO  Driver.App - ______________________CREATE NEW LOCATION_______________________ 
+
+
+2021-01-02 14:26:08,700 [main] INFO  Driver.App - Please enter the new location's longitude
+2021-01-02 14:26:16,804 [main] INFO  Driver.App - Please enter the new location's latitude
+2021-01-02 14:26:21,036 [main] INFO  Driver.App - Please Enter the new address 
+
+2021-01-02 14:26:41,468 [main] INFO  Driver.App - Enter the new location phone number
+2021-01-02 14:26:47,348 [main] INFO  Driver.App - New location has been created 
+
+2021-01-02 14:26:47,349 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:26:49,964 [main] INFO  Driver.App - ______________________DISPLAYING LOCATION_______________________ 
+
+
+2021-01-02 14:26:49,965 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:26:55,028 [main] INFO  Driver.App - ______________________DELETE LOCATION_______________________ 
+
+
+2021-01-02 14:26:55,029 [main] INFO  Driver.App - Enter the contact number of the location you want to delete
+2021-01-02 14:27:13,493 [main] INFO  Driver.App - Deleted location
+2021-01-02 14:27:13,494 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:27:17,501 [main] INFO  Driver.App - ______________________DISPLAYING LOCATION_______________________ 
+
+
+2021-01-02 14:27:17,501 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:27:25,094 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 14:28:15,748 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:28:17,747 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 14:29:49,511 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 14:29:50,613 [main] INFO  Driver.App - ______________________STORE ALL LOCATIONS_______________________ 
+
+
+2021-01-02 14:29:50,615 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 14:47:03,867 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 14:47:10,811 [main] INFO  Driver.App - ______________________CREATE NEW MENU ITEM_______________________ 
+
+
+2021-01-02 14:47:10,811 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 14:47:19,443 [main] INFO  Driver.App - ______________________CREATE NEW SPECIAL MENU ITEM_______________________ 
+
+
+2021-01-02 14:47:19,444 [main] INFO  Driver.App - please enter the dish name
+2021-01-02 14:47:35,268 [main] INFO  Driver.App - Enter the price of the dish
+2021-01-02 14:47:39,269 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 14:47:43,596 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 14:47:43,596 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 14:47:51,236 [main] INFO  Driver.App - salmon fry price: $12.25
+2021-01-02 14:47:51,236 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 14:47:51,237 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 14:47:51,237 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 14:47:51,237 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 15:19:51,645 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 15:19:56,712 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 15:19:56,712 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 15:19:59,533 [main] INFO  Driver.App - ______________________READ ALL SPECIAL MENU ITEMS_______________________ 
+
+
+2021-01-02 15:19:59,533 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 15:19:59,534 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 15:19:59,534 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 15:19:59,534 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 15:20:14,221 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 15:20:14,222 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 15:20:26,718 [main] INFO  Driver.App - ______________________READ ALL SPECIAL MENU ITEMS_______________________ 
+
+
+2021-01-02 15:20:26,718 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 15:20:26,718 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 15:20:26,718 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 15:20:26,719 [main] INFO  Driver.App - 
+ Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 15:20:28,910 [main] INFO  Driver.App - ______________________STORE ALL SPECIAL MENU ITEM_______________________ 
+
+
+2021-01-02 15:20:28,910 [main] INFO  Driver.App - ______________________STORING ALL MAIN MENU ITEMS_______________________ 
+
+
+2021-01-02 15:20:28,911 [main] INFO  Driver.App - ______________________STORING ALL DESSERT ITEMS_______________________ 
+
+
