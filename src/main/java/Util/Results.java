@@ -22,7 +22,7 @@ import java.io.File;
                 if (!file.exists()) {
                     file.createNewFile();
                 }
-                fw = new FileWriter(file.getAbsoluteFile(), true);
+                fw = new FileWriter(file.getAbsoluteFile());
                 bw = new BufferedWriter(fw);
             } catch (Exception e) {
                 MyLogger.writeMessage(getClass().getName()+" Can't write to file "+e.toString(), MyLogger.DebugLevel.ERROR);

@@ -30,13 +30,19 @@ public class App
                 while ((input = fp.readLine()) != null){
                     locations.add(input);
                 }
-                logger.info("Displaying all the current locations");
-                logger.debug(locations);
                 boolean exit = true;
                 while (exit){
-                    logger.info("Do you wish to 1. create a new location 2. update a location 3. delete a location");
+                    logger.info("Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit");
                     int option = scn.nextInt();
                     Results res = new Results(inputFile);
+                    if(option == 5){
+                        for (String location: locations){
+                            res.storeNewResult(location);
+                        }
+                        res.writeResults();
+                        res.closeMyFile();
+                        break;
+                    }
                     switch (option){
                         case 1:
                                 logger.info("______________________CREATE NEW LOCATION_______________________ \n\n");
@@ -50,37 +56,58 @@ public class App
                                 logger.info("Enter the new location phone number");
                                 String number = scn.next();
                                 String newLocation = longitude + ", " + latitude + ", " + address + ", " + number;
-                                res.storeNewResult(newLocation);
-                                res.closeMyFile();
+                                locations.add(newLocation);
                                 logger.info("New location has been created \n");
-                                logger.info("Do you wish to exit yes or no?");
-                                String txt = scn.next();
-                                txt.toLowerCase();
-                                if (txt.equals("yes")) {
-                                    exit = false;
-                                }
                                 break;
                         case 2:
                             logger.info("______________________UPDATE LOCATION_______________________ \n\n");
                             logger.info("Enter the contact number of the location you want to update");
                             String phoneNumber = scn.next();
-                            for(int i=0; i<locations.size(); i++){
+                            for(int i=0; i<locations.size(); i++) {
                                 String loc = locations.get(i);
-                                String[] arrLoc = loc.split(",");
-                                List<String> list = Arrays.asList(arrLoc);
-                                if(list.contains(phoneNumber)){
+                                String[] arrLoc = loc.split(", ");
+                                List<String> list = new ArrayList<>(Arrays.asList(arrLoc));
+                                if (list.contains(phoneNumber)) {
                                     logger.info("enter the updated phone number");
                                     String newNumber = scn.next();
-                                    list.remove(list.size() - 1);
+                                    list.remove(phoneNumber);
                                     list.add(newNumber);
                                     String updatedAddress = "";
-                                    for(String sample : list){
+                                    for (String sample : list) {
                                         updatedAddress += sample + ", ";
                                     }
-                                    locations.add(i, updatedAddress);
+                                    logger.info("updated location" +updatedAddress);
+                                    locations.set(i, updatedAddress);
+                                    break;
+                                    }
                                 }
+                                break;
 
+                        case 3:
+                            logger.info("______________________DELETE LOCATION_______________________ \n\n");
+                            logger.info("Enter the contact number of the location you want to delete");
+                            String phone_Number = scn.next();
+                            for(int i=0; i<locations.size(); i++){
+                                String loc = locations.get(i);
+                                String[] arrLoc = loc.split(", ");
+                                List<String> list = new ArrayList<>(Arrays.asList(arrLoc));
+                                if (list.contains(phone_Number)) {
+                                    logger.info("Deleted location");
+                                    locations.remove(i);
+                                }
                             }
+                            break;
+
+                        case 4:
+                            logger.info("______________________DISPLAYING LOCATION_______________________ \n\n");
+                            for (String loc: locations){
+                                System.out.println(loc +"\n");
+                            }
+                            break;
+
+                        default:
+                            logger.info("Enter the correct choice");
+                            break;
                     }
                 }
         }
