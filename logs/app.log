@@ -231,3 +231,240 @@
 2021-01-01 20:48:59,346 [main] INFO  Driver.App - New location has been created 
 
 2021-01-01 20:48:59,346 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit
+2021-01-02 00:08:40,808 [main] INFO  Driver.App - [, Chicken Fried Chicken Plate $10.50]
+2021-01-02 00:08:40,864 [main] INFO  Driver.App - [, Philly Cheese Steak or Chicken Sandwich (side salad excluded) $9.50]
+2021-01-02 00:08:40,864 [main] INFO  Driver.App - [, Grilled Chicken Breast Plate $9.25]
+2021-01-02 00:09:27,593 [main] INFO  Driver.App - [SpecialMenu Chicken Fried Chicken Plate $10.50]
+2021-01-02 00:09:27,597 [main] INFO  Driver.App - [SpecialMenu Philly Cheese Steak or Chicken Sandwich (side salad excluded) $9.50]
+2021-01-02 00:09:27,598 [main] INFO  Driver.App - [SpecialMenu Grilled Chicken Breast Plate $9.25]
+2021-01-02 00:14:49,069 [main] INFO  Driver.App - 10.5
+2021-01-02 00:14:49,072 [main] INFO  Driver.App - 9.5
+2021-01-02 00:14:49,072 [main] INFO  Driver.App - 9.25
+2021-01-02 13:15:27,643 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:15:42,254 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:15:42,255 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:15:47,620 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:15:47,621 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:15:47,621 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:15:47,621 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:15:47,621 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:17:07,207 [main] INFO  Driver.App - angus plate price: $10.5
+2021-01-02 13:17:07,208 [main] INFO  Driver.App - chicken fried steak plate price: $10.5
+2021-01-02 13:17:07,208 [main] INFO  Driver.App - 2 piece cat fish plate price: $10.5
+2021-01-02 13:17:07,208 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:17:07,208 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:18:46,078 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:18:50,843 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:18:50,844 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:19:08,537 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:19:08,537 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:19:13,969 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:19:13,970 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:19:36,816 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:19:36,816 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:20:39,210 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:20:47,887 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:20:47,887 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:20:50,293 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:20:50,293 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:22:02,958 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:22:43,211 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:22:43,212 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:22:45,881 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:22:45,881 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:23:34,893 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:23:37,152 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:23:37,152 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:23:39,592 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:23:39,592 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:23:39,593 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:23:39,593 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:23:39,593 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:24:00,242 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:24:00,243 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:24:10,783 [main] INFO  Driver.App - angus plate price: $10.5
+2021-01-02 13:24:10,783 [main] INFO  Driver.App - chicken fried steak plate price: $10.5
+2021-01-02 13:24:10,783 [main] INFO  Driver.App - 2 piece cat fish plate price: $10.5
+2021-01-02 13:24:10,784 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:24:10,784 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:24:15,190 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:24:15,191 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:26:27,609 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:26:32,069 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:26:32,069 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:26:36,028 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:26:36,029 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:26:36,029 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:26:36,029 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:26:36,030 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:26:53,364 [main] INFO  Driver.App - angus plate price: $10.5
+2021-01-02 13:26:53,364 [main] INFO  Driver.App - chicken fried steak plate price: $10.5
+2021-01-02 13:26:53,365 [main] INFO  Driver.App - 2 piece cat fish plate price: $10.5
+2021-01-02 13:26:53,365 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:26:53,365 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:26:56,019 [main] INFO  Driver.App - fresanada price: $5.25
+2021-01-02 13:26:56,020 [main] INFO  Driver.App - chocolate milkshake price: $3.5
+2021-01-02 13:26:56,020 [main] INFO  Driver.App - chocolate chip cookies price: $2.25
+2021-01-02 13:26:56,020 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:26:56,020 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:28:11,176 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:28:13,675 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:28:13,675 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:28:15,258 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:28:15,258 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:28:15,259 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:28:15,259 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:28:15,259 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:28:18,170 [main] INFO  Driver.App - angus plate price: $10.5
+2021-01-02 13:28:18,170 [main] INFO  Driver.App - chicken fried steak plate price: $10.5
+2021-01-02 13:28:18,171 [main] INFO  Driver.App - 2 piece cat fish plate price: $10.5
+2021-01-02 13:28:18,171 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:28:18,171 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:28:19,282 [main] INFO  Driver.App - fresanada price: $5.25
+2021-01-02 13:28:19,282 [main] INFO  Driver.App - chocolate milkshake price: $3.5
+2021-01-02 13:28:19,283 [main] INFO  Driver.App - chocolate chip cookies price: $2.25
+2021-01-02 13:28:19,283 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:28:19,283 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:30:15,310 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:30:19,465 [main] INFO  Driver.App - ______________________UPDATE MENU ITEM_______________________ 
+
+
+2021-01-02 13:30:19,466 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:30:23,993 [main] INFO  Driver.App - Please enter the name of dish you want to update
+2021-01-02 13:31:02,384 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:31:02,921 [main] INFO  Driver.App - ______________________UPDATE MENU ITEM_______________________ 
+
+
+2021-01-02 13:31:02,921 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:31:11,717 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:31:19,864 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:31:19,865 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:31:22,185 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:31:22,185 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:31:22,186 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:31:22,186 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:31:22,186 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:31:24,368 [main] INFO  Driver.App - angus plate price: $10.5
+2021-01-02 13:31:24,369 [main] INFO  Driver.App - chicken fried steak plate price: $10.5
+2021-01-02 13:31:24,369 [main] INFO  Driver.App - 2 piece cat fish plate price: $10.5
+2021-01-02 13:31:24,369 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:31:24,369 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:31:26,064 [main] INFO  Driver.App - fresanada price: $5.25
+2021-01-02 13:31:26,064 [main] INFO  Driver.App - chocolate milkshake price: $3.5
+2021-01-02 13:31:26,065 [main] INFO  Driver.App - chocolate chip cookies price: $2.25
+2021-01-02 13:31:26,065 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:31:26,065 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:34:02,884 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:34:05,855 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:34:05,856 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:34:09,959 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:34:09,960 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:34:09,960 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:34:09,960 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:34:09,960 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:37:28,107 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:37:29,406 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:37:29,407 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:37:35,223 [main] INFO  Driver.App - fresanada price: $5.25
+2021-01-02 13:37:35,224 [main] INFO  Driver.App - chocolate milkshake price: $3.5
+2021-01-02 13:37:35,224 [main] INFO  Driver.App - chocolate chip cookies price: $2.25
+2021-01-02 13:37:35,224 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:38:12,366 [main] INFO  Driver.App - ______________________CREATE NEW MENU ITEM_______________________ 
+
+
+2021-01-02 13:38:12,366 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:38:16,966 [main] INFO  Driver.App - please enter the dish name
+2021-01-02 13:38:27,279 [main] INFO  Driver.App - Enter the price of the dish
+2021-01-02 13:38:32,694 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:38:38,590 [main] INFO  Driver.App - ______________________UPDATE MENU ITEM_______________________ 
+
+
+2021-01-02 13:38:38,591 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:38:41,902 [main] INFO  Driver.App - Please enter the name of dish you want to update
+2021-01-02 13:38:48,158 [main] INFO  Driver.App - Please enter the new price
+2021-01-02 13:38:55,678 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:39:00,710 [main] INFO  Driver.App - ______________________DELETE MENU ITEM_______________________ 
+
+
+2021-01-02 13:39:00,711 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:39:10,414 [main] INFO  Driver.App - Please enter the name of dish you want to update
+2021-01-02 13:39:33,166 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:39:40,342 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:39:40,342 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:39:42,950 [main] INFO  Driver.App - Salmon Fry price: $10.15
+2021-01-02 13:39:42,950 [main] INFO  Driver.App - salmon fry price: $20.0
+2021-01-02 13:39:42,951 [main] INFO  Driver.App - grilled chicken breast plate price: $9.25
+2021-01-02 13:39:42,951 [main] INFO  Driver.App - chicken fried chicken plate price: $10.5
+2021-01-02 13:39:42,951 [main] INFO  Driver.App - philly cheese steak or chicken sandwich (side salad excluded) price: $9.5
+2021-01-02 13:39:42,952 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
+2021-01-02 13:41:19,462 [main] INFO  Driver.App - ______________________DISPLAY ALL MENU ITEMS_______________________ 
+
+
+2021-01-02 13:41:19,462 [main] INFO  Driver.App - Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts
+2021-01-02 13:41:23,061 [main] INFO  Driver.App - chocolate milkshake price: $3.5
+2021-01-02 13:41:23,062 [main] INFO  Driver.App - chocolate chip cookies price: $2.25
+2021-01-02 13:41:23,062 [main] INFO  Driver.App - Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Exit
