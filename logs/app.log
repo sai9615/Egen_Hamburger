@@ -1,0 +1,14 @@
+2021-01-01 19:15:29,687 [main] INFO  Driver.App - Displaying all the current locations
+2021-01-01 19:15:29,691 [main] DEBUG Driver.App - [29.5336674,-98.6773674, Texas Hamburger Company, 9010 Huebner Rd, San Antonio, TX 78240, 8855441242, 30.2554674,-150.6773674, Texas Hamburger Company, 1080 Charles Rd, San Antonio, TX 78240, 8855441242]
+2021-01-01 19:15:29,691 [main] INFO  Driver.App - Do you wish to 1. create a new location 2. update a location 3. delete a location
+2021-01-01 19:15:32,476 [main] INFO  Driver.App - ______________________CREATE NEW LOCATION_______________________ 
+
+
+2021-01-01 19:15:32,477 [main] INFO  Driver.App - Please enter the new location's longitude
+2021-01-01 19:15:35,779 [main] INFO  Driver.App - Please enter the new location's latitude
+2021-01-01 19:15:36,940 [main] INFO  Driver.App - Please Enter the new address 
+
+2021-01-01 19:15:38,099 [main] INFO  Driver.App - Enter the new location phone number
+2021-01-01 19:15:39,275 [main] INFO  Driver.App - New location has been created 
+
+2021-01-01 19:15:39,275 [main] INFO  Driver.App - Do you wish to exit yes or no?
