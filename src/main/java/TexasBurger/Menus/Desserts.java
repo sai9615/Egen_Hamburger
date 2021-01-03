@@ -60,7 +60,7 @@ public class Desserts implements MenuInterface{
         for (Map.Entry<String, Double> stringDoubleEntry : desserts.entrySet()) {
             Map.Entry mapElement = stringDoubleEntry;
             double mrp = (double) mapElement.getValue();
-            String elem = "Desserts ," + mapElement.getKey() + ", " + mrp;
+            String elem = "Desserts, " + mapElement.getKey() + ", " + mrp;
             res.storeNewResult(elem);
         }
     }

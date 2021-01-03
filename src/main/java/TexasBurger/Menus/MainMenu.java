@@ -61,7 +61,7 @@ public class MainMenu implements MenuInterface {
         for (Map.Entry<String, Double> stringDoubleEntry : mainMenu.entrySet()) {
             Map.Entry mapElement = stringDoubleEntry;
             double mrp = (double) mapElement.getValue();
-            String elem = "MainMenu ," + mapElement.getKey() + ", " + mrp;
+            String elem = "MainMenu, " + mapElement.getKey() + ", " + mrp;
             res.storeNewResult(elem);
         }
     }

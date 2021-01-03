@@ -61,7 +61,7 @@ public class SpecialMenu implements MenuInterface {
         for (Map.Entry<String, Double> doubleEntry : specialMenu.entrySet()) {
             Map.Entry mapElement = doubleEntry;
             double mrp = (double) mapElement.getValue();
-            String elem = "SpecialMenu ," + mapElement.getKey() + ", " + mrp;
+            String elem = "SpecialMenu, " + mapElement.getKey() + ", " + mrp;
             res.storeNewResult(elem);
         }
     }
