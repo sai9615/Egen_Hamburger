@@ -55,6 +55,9 @@ public class SpecialMenu implements MenuInterface {
         }
     }
 
+    /**
+     * @param res
+     */
     @Override
     public void storeAllItems(Results res) {
         logger.info("______________________STORE ALL SPECIAL MENU ITEM_______________________ \n\n");

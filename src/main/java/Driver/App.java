@@ -18,6 +18,9 @@ import java.util.*;
 public class App {
     public static final Logger logger = LogManager.getLogger(App.class.getName());
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         while (true) {
             System.out.println("\n------------------ADMIN PANEL------------------\n");

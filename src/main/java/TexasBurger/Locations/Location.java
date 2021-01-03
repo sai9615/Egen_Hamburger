@@ -18,6 +18,7 @@ public class Location implements LocationInterface {
         this.locations = locations;
     }
 
+
     @Override
     public void createLocation() {
         logger.info("______________________CREATE NEW LOCATION_______________________ \n\n");
@@ -84,6 +85,9 @@ public class Location implements LocationInterface {
         }
     }
 
+    /**
+     * @param res
+     */
     @Override
     public void storeLocations(Results res){
         logger.info("______________________STORE ALL LOCATIONS_______________________ \n\n");

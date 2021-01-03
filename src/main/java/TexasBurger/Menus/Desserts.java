@@ -54,6 +54,9 @@ public class Desserts implements MenuInterface{
         }
     }
 
+    /**
+     * @param res
+     */
     @Override
     public void storeAllItems(Results res) {
         logger.info("______________________STORING ALL DESSERT ITEMS_______________________ \n\n");

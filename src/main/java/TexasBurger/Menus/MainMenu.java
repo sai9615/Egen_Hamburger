@@ -55,6 +55,9 @@ public class MainMenu implements MenuInterface {
         }
     }
 
+    /**
+     * @param res
+     */
     @Override
     public void storeAllItems(Results res) {
         logger.info("______________________STORING ALL MAIN MENU ITEMS_______________________ \n\n");

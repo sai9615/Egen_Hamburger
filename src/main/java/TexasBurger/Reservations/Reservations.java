@@ -93,6 +93,9 @@ public class Reservations implements ReservationsInterface{
         }
     }
 
+    /**
+     * @param res
+     */
     @Override
     public void storeAllReservations(Results res) {
         String pattern = "dd/MM/yyyy";
