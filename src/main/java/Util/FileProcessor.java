@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.lang.String;
 
+import static Driver.App.logger;
+
 public class FileProcessor {
 
         private String filename;
@@ -18,10 +20,9 @@ public class FileProcessor {
                 filename = fname;
                 File file = new File(filename);
                 scn = new BufferedReader(new FileReader(file));
-                System.out.println("opened the file");
+                logger.info("opened the file");
             } catch (Exception e) {
-                MyLogger.writeMessage(getClass().getName()+" can't open the file "+e.toString(), MyLogger.DebugLevel.ERROR);
-                MyLogger.writeMessage(getClass().getName()+" can't open the file "+e.toString(), MyLogger.DebugLevel.FILEPROCESSOR);
+                logger.error(getClass().getName()+" can't open the file "+e.toString());
                 System.exit(0);
             }
         }
@@ -40,8 +41,7 @@ public class FileProcessor {
                     return str;
                 }
             } catch (Exception e) {
-                MyLogger.writeMessage(getClass().getName()+" can't read the file "+e.toString(), MyLogger.DebugLevel.ERROR);
-                MyLogger.writeMessage(getClass().getName()+" can't read the file "+e.toString(), MyLogger.DebugLevel.FILEPROCESSOR);
+                logger.error(getClass().getName()+" can't read the file "+e.toString());
                 System.exit(0);
             }
             closeMyFile();
@@ -55,8 +55,7 @@ public class FileProcessor {
             try {
                 scn.close();
             } catch (Exception e) {
-                MyLogger.writeMessage(getClass().getName()+" Problem in closing the file "+e.toString(), MyLogger.DebugLevel.ERROR);
-                MyLogger.writeMessage(getClass().getName()+" can't close the file "+e.toString(), MyLogger.DebugLevel.FILEPROCESSOR);
+                logger.error(getClass().getName()+" Problem in closing the file "+e.toString());
                 System.exit(0);
             }
         }
