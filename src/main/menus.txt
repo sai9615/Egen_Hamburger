@@ -1,9 +1,9 @@
-SpecialMenu, Chicken Fried Chicken Plate, 10.50
-SpecialMenu, Philly Cheese Steak or Chicken Sandwich (side salad excluded), 9.50
-SpecialMenu, Grilled Chicken Breast Plate, 9.25
-MainMenu, Angus Plate, 10.50
-MainMenu, 2 Piece Cat Fish Plate, 10.50
-MainMenu, Chicken Fried Steak Plate, 10.50
-Desserts, Chocolate chip Cookies, 2.25
-Desserts, Fresanada, 5.25
-Desserts, Chocolate MilkShake, 3.50
+Special Menu, grilled chicken breast plate, 9.25
+Special Menu, chicken fried chicken plate, 10.5
+Special Menu, philly cheese steak or chicken sandwich (side salad excluded), 9.5
+Desserts, fresanada, 5.25
+Desserts, chocolate milkshake, 3.5
+Desserts, chocolate chip cookies, 2.25
+Main Menu, angus plate, 10.5
+Main Menu, chicken fried steak plate, 10.5
+Main Menu, 2 piece cat fish plate, 10.5

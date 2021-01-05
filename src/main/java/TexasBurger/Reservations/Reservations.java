@@ -1,6 +1,6 @@
 package TexasBurger.Reservations;
 
-import Util.Results;
+import FileProcessors.Results;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

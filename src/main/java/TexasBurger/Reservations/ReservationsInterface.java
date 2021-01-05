@@ -1,6 +1,6 @@
 package TexasBurger.Reservations;
 
-import Util.Results;
+import FileProcessors.Results;
 
 public interface ReservationsInterface {
     public void createReservation();

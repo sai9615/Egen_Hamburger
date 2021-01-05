@@ -1,6 +1,6 @@
 package TexasBurger.Locations;
 
-import Util.Results;
+import FileProcessors.Results;
 
 public interface LocationInterface {
     public void createLocation();

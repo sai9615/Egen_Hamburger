@@ -1,4 +1,4 @@
-package Util;
+package FileProcessors;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -15,9 +15,9 @@ public class FileProcessor {
          * Constructor, used for opening the file and initializing buffers.
          * @param fname - name of the input file.
          */
-        public FileProcessor(String fname) {
+        public FileProcessor(String filename) {
             try {
-                filename = fname;
+                this.filename = filename;
                 File file = new File(filename);
                 scn = new BufferedReader(new FileReader(file));
                 logger.info("opened the file");

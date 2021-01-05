@@ -1,6 +1,6 @@
 package TexasBurger.Locations;
 
-import Util.Results;
+import FileProcessors.Results;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,12 +1,10 @@
 package Driver;
 
 import TexasBurger.Locations.Location;
-import TexasBurger.Menus.Desserts;
-import TexasBurger.Menus.MainMenu;
-import TexasBurger.Menus.SpecialMenu;
+import TexasBurger.Menus.Menu;
 import TexasBurger.Reservations.Reservations;
-import Util.FileProcessor;
-import Util.Results;
+import FileProcessors.FileProcessor;
+import FileProcessors.Results;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -73,8 +71,8 @@ public class App {
                     String inputTwo;
                     ArrayList<String> menus = new ArrayList<>();
                     FileProcessor fpOne = new FileProcessor(inputFileTwo);
-                    while ((input = fpOne.readLine()) != null) {
-                        menus.add(input);
+                    while ((inputTwo = fpOne.readLine()) != null) {
+                        menus.add(inputTwo);
                     }
 
                     HashMap<String, Double> specialMenu = new HashMap<>();
@@ -84,10 +82,10 @@ public class App {
                     //read data from file and store it into resp. HashMap
 
                     for (String menu : menus) {
-                        if (menu.contains("SpecialMenu")) {
+                        if (menu.contains("Special Menu")) {
                             String[] arr = menu.split(", ");
                             specialMenu.put(arr[1].toLowerCase(), Double.parseDouble(arr[2]));
-                        } else if (menu.contains("MainMenu")) {
+                        } else if (menu.contains("Main Menu")) {
                             String[] arr = menu.split(", ");
                             mainMenu.put(arr[1].toLowerCase(), Double.parseDouble(arr[2]));
                         } else if (menu.contains("Desserts")) {
@@ -96,14 +94,31 @@ public class App {
                         }
                     }
 
-                    SpecialMenu specialMenus = new SpecialMenu(specialMenu);
-                    MainMenu mainMenus = new MainMenu(mainMenu);
-                    Desserts desserts = new Desserts(dessert);
+                    Menu specialMenus = new Menu(specialMenu, "Special Menu");
+                    Menu mainMenus = new Menu(mainMenu, "Main Menu");
+                    Menu desserts = new Menu(dessert, "Desserts");
+
+                    HashMap<Menu, HashMap<String, Double>> menuHashMap = new HashMap<>();
+                    menuHashMap.put(specialMenus, specialMenu);
+                    menuHashMap.put(mainMenus, mainMenu);
+                    menuHashMap.put(desserts, dessert);
 
                     while (true) {
-                        logger.info("\n Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Store all item and Exit");
-                        int options = scn.nextInt();
+                        int options = 0;
                         Results res = new Results(inputFileTwo);
+                        App obj = new App();
+                        try{
+                            logger.info("\n Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Store all item and Exit");
+                            options = scn.nextInt();
+                            if(options >= 6){
+                                throw new Exception("Option doesn't exist");
+                            }
+                        }catch (Exception e){
+                            logger.error(e);
+                            logger.info("Exiting due to exception, "+ e +" Please choose correct option again");
+                              obj.storeMenuResult(menuHashMap, res);
+
+                        }
                         switch (options) {
                             case 1:
                                 logger.info("______________________CREATE NEW MENU ITEM_______________________ \n\n");
@@ -166,7 +181,7 @@ public class App {
                                 }
                                 break;
                             case 4:
-                                logger.info("______________________DISPLAY ALL MENU ITEMS_______________________ \n\n");
+                                logger.info("______________________DISPLAY MENU ITEMS_______________________ \n\n");
                                 logger.info("Please choose your menu type 1.Special Menu 2.Main Menu or 3.Desserts");
                                 String optionss = scn.next();
                                 int numbs = Integer.parseInt(optionss);
@@ -186,11 +201,8 @@ public class App {
                                 }
                                 break;
                             case 5:
-                                specialMenus.storeAllItems(res);
-                                mainMenus.storeAllItems(res);
-                                desserts.storeAllItems(res);
-                                res.writeResults();
-                                res.closeMyFile();
+                                logger.info("______________________STORE MENU ITEMS_______________________ \n\n");
+                                obj.storeMenuResult(menuHashMap, res);
                                 break;
                             default:
                                 logger.info("Please enter the correct choice");
@@ -206,8 +218,8 @@ public class App {
                     String inputThree;
                     ArrayList<String> reservation = new ArrayList<>();
                     FileProcessor fpTwo = new FileProcessor(inputFileThree);
-                    while ((input = fpTwo.readLine()) != null) {
-                        reservation.add(input);
+                    while ((inputThree = fpTwo.readLine()) != null) {
+                        reservation.add(inputThree);
                     }
                     HashMap<String, Date> reserves = new HashMap<>();
                     Set<Date> dates = new HashSet<>();
@@ -258,5 +270,20 @@ public class App {
                 System.exit(0);
             }
         }
+    }
+
+    /**
+     * Method to store all menu items of all the available menu types.
+     * @param menuHashMap
+     * @param res
+     */
+    public void storeMenuResult(HashMap<Menu, HashMap<String, Double>> menuHashMap, Results res){
+        for(Map.Entry<Menu, HashMap<String,Double>> entry: menuHashMap.entrySet()){
+            Menu menuType = entry.getKey();
+            HashMap<String, Double> menuItems = entry.getValue();
+            menuType.storeAllItems(res, menuItems);
+        }
+        res.writeResults();
+        res.closeMyFile();
     }
 }
