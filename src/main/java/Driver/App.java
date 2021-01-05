@@ -23,8 +23,19 @@ public class App {
         while (true) {
             System.out.println("\n------------------ADMIN PANEL------------------\n");
             System.out.println("1.Location 2.Menu 3.Party Reservations 4.Exit \n");
+            int choice =0;
             Scanner scn = new Scanner(System.in);
-            int choice = scn.nextInt();
+            try {
+                choice = scn.nextInt();
+                if(choice >=5 || choice <=0){
+                    throw new Exception("Option doesn't exist");
+                }
+            } catch (Exception e) {
+                logger.error(e);
+                logger.info("Exiting due to exception, " + e + " Please choose correct option again");
+                main(null);
+                break;
+            }
             switch (choice) {
                 case 1:
                     String inputFile = "src/main/locations.txt";
@@ -36,9 +47,20 @@ public class App {
                     }
                     Location location = new Location(locations);
                     while (true) {
-                        logger.info("Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit");
-                        int option = scn.nextInt();
+                        int option = 0;
                         Results res = new Results(inputFile);
+                        try {
+                            logger.info("Do you wish to 1. create a new location 2. update a location 3. delete a location 4. Show all locations 5. Exit");
+                            option = scn.nextInt();
+                            if (option >= 6) {
+                                throw new Exception("Option doesn't exist");
+                            }
+                        } catch (Exception e) {
+                            logger.error(e);
+                            logger.info("Exiting due to exception, " + e + " Please choose correct option again");
+                            location.storeLocations(res);
+                            break;
+                        }
                         switch (option) {
                             case 1:
                                 location.createLocation();
@@ -107,17 +129,17 @@ public class App {
                         int options = 0;
                         Results res = new Results(inputFileTwo);
                         App obj = new App();
-                        try{
+                        try {
                             logger.info("\n Do you wish to 1. create a new menu item 2. update a menu item 3. delete a menu item 4. Show all menu items 5. Store all item and Exit");
                             options = scn.nextInt();
-                            if(options >= 6){
+                            if (options >= 6) {
                                 throw new Exception("Option doesn't exist");
                             }
-                        }catch (Exception e){
+                        } catch (Exception e) {
                             logger.error(e);
-                            logger.info("Exiting due to exception, "+ e +" Please choose correct option again");
-                              obj.storeMenuResult(menuHashMap, res);
-
+                            logger.info("Exiting due to exception, " + e + " Please choose correct option again");
+                            obj.storeMenuResult(menuHashMap, res);
+                            break;
                         }
                         switch (options) {
                             case 1:
@@ -232,9 +254,20 @@ public class App {
                     }
                     Reservations reservations = new Reservations(reserves, dates);
                     while (true) {
-                        logger.info("\n Do you wish to 1. create a new reservation 2. update a reservation 3. delete a reservation 4. Show all reservation 5. Save all reservations and Exit");
-                        int options = scn.nextInt();
+                        int options = 0;
                         Results res = new Results(inputFileThree);
+                        try {
+                            logger.info("\n Do you wish to 1. create a new reservation 2. update a reservation 3. delete a reservation 4. Show all reservation 5. Save all reservations and Exit");
+                            options = scn.nextInt();
+                            if (options >= 6) {
+                                throw new Exception("Option doesn't exist");
+                            }
+                        } catch (Exception e) {
+                            logger.error(e);
+                            logger.info("Exiting due to exception, " + e + " Please choose correct option again");
+                            reservations.storeAllReservations(res);
+                            break;
+                        }
                         switch (options) {
                             case 1:
                                 reservations.createReservation();
@@ -274,11 +307,12 @@ public class App {
 
     /**
      * Method to store all menu items of all the available menu types.
+     *
      * @param menuHashMap
      * @param res
      */
-    public void storeMenuResult(HashMap<Menu, HashMap<String, Double>> menuHashMap, Results res){
-        for(Map.Entry<Menu, HashMap<String,Double>> entry: menuHashMap.entrySet()){
+    public void storeMenuResult(HashMap<Menu, HashMap<String, Double>> menuHashMap, Results res) {
+        for (Map.Entry<Menu, HashMap<String, Double>> entry : menuHashMap.entrySet()) {
             Menu menuType = entry.getKey();
             HashMap<String, Double> menuItems = entry.getValue();
             menuType.storeAllItems(res, menuItems);
